@@ -26,7 +26,6 @@ namespace Task4
             if (args.Length == 0)
             {
                 Console.WriteLine("Empty/insufficient args");
-                Console.ReadKey();
                 Environment.Exit(0);
             }
            
@@ -141,7 +140,6 @@ namespace Task4
                 Console.WriteLine(item.startTime.ToString(@"hh\:mm") + " " + item.endTime.ToString(@"hh\:mm") + @"\n");
             }
 
-            Console.ReadKey();
         }
         // сортировка списка интервалов по значению начала интервала
         public static List<TimeInterval> SortTimes(List<TimeInterval> list)

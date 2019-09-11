@@ -13,7 +13,6 @@ namespace Task3
             if (args.Length == 0)
             {
                 Console.WriteLine("Empty/insufficient args");
-                Console.ReadKey();
                 Environment.Exit(0);
             }
 

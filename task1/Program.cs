@@ -10,7 +10,6 @@ namespace TestTask
             if (args.Length == 0)
             {
                 Console.WriteLine("Empty args");
-                Console.ReadKey();
                 Environment.Exit(0);
             }
             var task1 = new Task1();

@@ -15,7 +15,6 @@ namespace Task2
             if (args.Length < 2)
             {
                 Console.WriteLine("Empty/insufficient args");
-                Console.ReadKey();
                 Environment.Exit(0);
             }
 
